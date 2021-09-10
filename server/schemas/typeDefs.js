@@ -5,7 +5,6 @@ const typeDefs = gql`
         _id: ID!
         username: String!
         email: String!
-        bookCount: Int
         Todos: [Todo]!
     }
     type Todo {
